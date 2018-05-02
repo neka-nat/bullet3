@@ -6,8 +6,8 @@ import math
 
 import numpy as np
 import tensorflow as tf
-#from google3.pyglib import app
-#from google3.pyglib import flags
+from tensorflow import app
+from tensorflow.python.platform import flags
 from pybullet_envs.minitaur.envs import minitaur_randomize_terrain_gym_env
 
 FLAGS = flags.FLAGS
